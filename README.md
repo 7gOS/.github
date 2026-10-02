@@ -1,26 +1,31 @@
 # 7gOS organization defaults
 
-这个仓库给 `7gOS` 组织下**所有没有自己模板的仓库**提供默认值。它不是产品，是规范。
+This repository supplies defaults for **every repository in the `7gOS` organization that
+does not define its own**. It is not a product — it is a specification.
 
-| 路径 | 作用 |
+| Path | Purpose |
 |---|---|
-| `profile/README.md` | 组织首页展示的门面（本仓库必须 public 才会显示） |
-| `ISSUE_TEMPLATE/` | 5 个启用的 Issue Form，与组织级 Issue Types 一一对应 |
-| `ISSUE_TEMPLATE/_deferred/` | 3 个推迟的 form。GitHub 忽略子目录，所以既留存又不生效 |
-| `PULL_REQUEST_TEMPLATE.md` | 组织内所有仓库的默认 PR 模板 |
-| `SECURITY.md` | 全组织默认安全披露政策 |
+| `profile/README.md` | The organization's public landing page (this repository must be public for it to render) |
+| `ISSUE_TEMPLATE/` | 5 active issue forms, one per organization-level Issue Type |
+| `ISSUE_TEMPLATE/_deferred/` | 3 deferred forms. GitHub ignores subdirectories, so they are kept but inactive |
+| `PULL_REQUEST_TEMPLATE.md` | Default pull request template for every repository in the organization |
+| `SECURITY.md` | Organization-wide security disclosure policy |
 
-## 认知类对象不开 Issue
+## Knowledge objects do not get issues
 
-Note / Insight / Research / Decision 不在这里出现 —— 它们的价值在累积和被引用，
-没有终态，开成 Issue 只会得到一堆永不 done 的条目。
+Notes, insights, research and decisions do not appear here. Their value lies in
+accumulating and being referenced — they have no terminal state, so turning them into
+issues produces a backlog that never reaches "done".
 
-Issue 只装**有生命周期、需要推进与关闭**的东西：Idea / Initiative / Article / Task / Bug。
+Issues carry only what has a **lifecycle and needs to be driven to closure**:
+Idea / Initiative / Article / Task / Bug.
 
-## 改名或新增模板前
+## Before renaming or adding a template
 
-先确认对应的 Issue Type 已存在。`_deferred/` 里那三个等研究搬上 GitHub 时再启用。
+Confirm the corresponding Issue Type already exists. The three under `_deferred/` are
+enabled once research moves onto GitHub.
 
-## 请勿直接在网页上编辑
+## Do not edit this repository on the web
 
-本仓库内容由本地单一真源生成并推送。网页上的改动会在下次同步时被覆盖。
+Its contents are generated from a single local source of truth and pushed from there.
+Changes made in the web UI will be overwritten on the next sync.
