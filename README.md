@@ -10,13 +10,17 @@
 | `PULL_REQUEST_TEMPLATE.md` | 组织内所有仓库的默认 PR 模板 |
 | `SECURITY.md` | 全组织默认安全披露政策 |
 
-## 认领关系
+## 认知类对象不开 Issue
 
-**认知类对象不开 Issue。** Note / Insight / Research / Decision 留在本地 vault ——
-它们的价值在累积和被引用，没有终态，开成 Issue 只会得到一堆永不 done 的条目。
+Note / Insight / Research / Decision 不在这里出现 —— 它们的价值在累积和被引用，
+没有终态，开成 Issue 只会得到一堆永不 done 的条目。
 
 Issue 只装**有生命周期、需要推进与关闭**的东西：Idea / Initiative / Article / Task / Bug。
 
 ## 改名或新增模板前
 
 先确认对应的 Issue Type 已存在。`_deferred/` 里那三个等研究搬上 GitHub 时再启用。
+
+## 请勿直接在网页上编辑
+
+本仓库内容由本地单一真源生成并推送。网页上的改动会在下次同步时被覆盖。
