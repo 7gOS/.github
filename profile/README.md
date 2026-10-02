@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/7gOS/.github/main/profile/7gLogo.png" alt="7gOS" width="128" height="128">
+![7gOSLogo](https://avatars.githubusercontent.com/u/336768552?s=128)
 
 # 7gOS
 
