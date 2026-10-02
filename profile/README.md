@@ -1,11 +1,13 @@
 # 7gOS
 
-一套长期运行的个人知识、研究与构建体系：捕获 → 研究 → 验证 → 构建 → 出版。
+A long-running system for personal knowledge, research and building:
+capture → research → validate → build → publish.
 
-## 目前没有可以展示的东西
+## Nothing to show yet
 
-内容正在 Private 仓库里孵化，成熟之后才公开。
+Work is incubated in private repositories and published once it is ready.
 
-> Private 是孵化器，Public 是作品集。
+> Private is the incubator. Public is the portfolio.
 
-公开时你会在这里看到研究、判断、实验与项目。现在还没有，所以这里只有这句话。
+Once published, this page will point to research, judgment, experiments and projects.
+Right now there is none of that, so it says only this.
