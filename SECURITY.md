@@ -1,18 +1,28 @@
 # Security Policy
 
-## 报告问题
+## Reporting a vulnerability
 
-如果你认为发现了与本组织仓库相关的问题，请用 GitHub 的私密漏洞报告
-（Security → Report a vulnerability）提交，**不要开公开 issue**。
+If you believe you have found a security issue in any repository under this
+organization, please report it through GitHub's private vulnerability reporting
+(**Security → Report a vulnerability**). Do not open a public issue.
 
-## 范围
+## Scope
 
-- 本组织不对外提供任何服务，没有运行时系统
-- 仓库里可能包含研究原型代码，它们**按原样提供，不承诺安全性与维护**
-- 任何标记为 `Research Prototype` / `Experimental` / `Beta` 的代码都不得用于生产
+- This organization does not operate any public service and has no running systems.
+- Repositories may contain research prototype code. It is provided **as is, with no
+  guarantee of security or maintenance**.
+- Anything labelled `Research Prototype`, `Experimental` or `Beta` must not be used in
+  production.
 
-## 本组织不会做的事
+## What this organization does not do
 
-- 不在公开仓库中放凭证、密钥或生产配置
-- 不在公开仓库中放用户数据
-- 不做商业机密与敏感安全细节的公开
+- Store credentials, keys or production configuration in public repositories.
+- Store user data in public repositories.
+- Publish trade secrets or sensitive security details.
+
+## Response expectations
+
+This organization is maintained by one person. There is no SLA. Reports are read and
+triaged on a best-effort basis, and a fix may take a long time — or never arrive for
+code that is explicitly experimental. You are welcome to open a pull request instead of
+waiting.
