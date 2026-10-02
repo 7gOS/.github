@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/7gOS/.github/main/profile/7gLogo.png" alt="7gOS" width="128" height="128">
+
 # 7gOS
 
 A long-running system for personal knowledge, research and building:
