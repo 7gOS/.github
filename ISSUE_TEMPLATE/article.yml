@@ -1,0 +1,33 @@
+name: Article
+description: 准备出版的内容
+title: "[Article] "
+type: Article
+body:
+  - type: input
+    id: judgement
+    attributes:
+      label: 核心判断
+      description: 标题必须是判断，不是教程。例：钱包为什么应该停止存储私钥。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源
+      description: 来自哪些 Insight / Research / Decision？没有来源就先别开这个 Issue。
+    validations:
+      required: true
+  - type: dropdown
+    id: lang
+    attributes:
+      label: 语言
+      options:
+        - 中文
+        - 中英双语
+        - 英文优先
+    validations:
+      required: true
+  - type: textarea
+    id: wwcmm
+    attributes:
+      label: What Would Change My Mind

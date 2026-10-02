@@ -1,0 +1,43 @@
+# 推迟：对应的 Issue Type（Research / Experiment / Decision）尚未在 org 建立。
+# GitHub 会忽略 ISSUE_TEMPLATE/ 的子目录，所以放在这里既留存又不生效。
+# 触发条件：research 上 GitHub 时。
+name: Decision
+description: 需要形成明确判断的问题
+title: "[Decision] "
+type: Decision
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: 当时的约束是什么？不写约束的决策无法复用。
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Trade-offs
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision
+    validations:
+      required: true
+  - type: textarea
+    id: wwcmm
+    attributes:
+      label: What Would Change My Mind
+    validations:
+      required: true

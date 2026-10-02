@@ -1,0 +1,26 @@
+name: Initiative
+description: 一个较大的长期主题
+title: "[Initiative] "
+type: Initiative
+body:
+  - type: input
+    id: theme
+    attributes:
+      label: 主题
+    validations:
+      required: true
+  - type: textarea
+    id: thesis
+    attributes:
+      label: 这个主题想验证的核心判断
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 边界
+      description: 明确不做什么。
+  - type: textarea
+    id: children
+    attributes:
+      label: 挂在这个 Initiative 下的 Research / Lab / Article

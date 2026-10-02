@@ -1,0 +1,42 @@
+# 推迟：对应的 Issue Type（Research / Experiment / Decision）尚未在 org 建立。
+# GitHub 会忽略 ISSUE_TEMPLATE/ 的子目录，所以放在这里既留存又不生效。
+# 触发条件：research 上 GitHub 时。
+name: Research
+description: 需要系统调查的问题
+title: "[Research] "
+type: Research
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      description: 我们真正想知道什么？只能有一个问题。
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Current Hypothesis
+      description: 当前判断是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why It Matters
+  - type: textarea
+    id: known
+    attributes:
+      label: Known Facts
+      description: 已经确认什么？每条尽量带来源。
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: Unknowns
+  - type: textarea
+    id: wwcmm
+    attributes:
+      label: What Would Change My Mind
+      description: 什么证据会让我改变判断？这一栏不许空着。
+    validations:
+      required: true

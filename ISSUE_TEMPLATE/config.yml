@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 7gOS
+    url: https://github.com/7gOS
+    about: Issue 类型与字段的约定见组织级的 Issue Types / Issue Fields

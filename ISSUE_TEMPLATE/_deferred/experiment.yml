@@ -1,0 +1,32 @@
+# 推迟：对应的 Issue Type（Research / Experiment / Decision）尚未在 org 建立。
+# GitHub 会忽略 ISSUE_TEMPLATE/ 的子目录，所以放在这里既留存又不生效。
+# 触发条件：research 上 GitHub 时。
+name: Experiment
+description: 需要代码或数据验证的问题
+title: "[Experiment] "
+type: Experiment
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: 被验证的假设
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: 方法
+      description: 怎么测、控制什么变量、跑多久。
+    validations:
+      required: true
+  - type: textarea
+    id: falsify
+    attributes:
+      label: 什么结果算证伪
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 结果与结论
+      description: 实验结束后回填。结论写进对应 topic 的 research.md。

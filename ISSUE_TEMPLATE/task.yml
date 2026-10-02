@@ -1,0 +1,16 @@
+name: Task
+description: 普通执行工作
+title: "[Task] "
+type: Task
+body:
+  - type: textarea
+    id: done
+    attributes:
+      label: 完成标准
+      description: 怎样算做完？
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注

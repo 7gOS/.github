@@ -1,0 +1,32 @@
+name: Idea
+description: 值得探索的想法
+title: "[Idea] "
+type: Idea
+body:
+  - type: textarea
+    id: statement
+    attributes:
+      label: 想法
+      description: 一句话说清是什么。不要写背景铺垫。
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么可能重要
+  - type: textarea
+    id: cheapest_test
+    attributes:
+      label: 最便宜的验证方式
+      description: 如果它错了，最快多久能知道？
+  - type: dropdown
+    id: next
+    attributes:
+      label: 下一步去向
+      options:
+        - 留在 Idea（先不推进）
+        - → Research
+        - → Decision
+        - 丢弃
+    validations:
+      required: true
